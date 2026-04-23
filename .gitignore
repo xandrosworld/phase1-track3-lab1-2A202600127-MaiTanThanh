@@ -7,5 +7,10 @@ ENV/
 env/
 .env
 .pytest_cache/
-outputs/
+outputs/*
+!outputs/final_run/
+!outputs/final_run/report.json
+!outputs/final_run/report.md
+!outputs/final_run/react_runs.jsonl
+!outputs/final_run/reflexion_runs.jsonl
 .DS_Store
